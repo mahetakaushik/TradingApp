@@ -27,7 +27,7 @@ To use this project, run this commands:
 |------|-----------|--------------|-------|-------------|
 | Registration | /api/register | POST |  {<br>  "username": "XXXX",<br>  "email": "XXXX",<br>  "password": "XXXX" <br>} | User Registration |
 | Login | /api/login | POST |   {<br>  "username": "XXXX",<br>  "password": "XXXX" <br>} | User Login |
-| Add Bond | /api/add-bond | POST |   {<br>  "bond_type": "XXXX",<br>  "no_of_bonds": "XXXX" <br> "password": "XXXX"<br>} | To add new Bond, All fields are Required |
+| Add Bond | /api/add-bond | POST |   {<br>  "bond_type":"XXXX",<br>  "no_of_bonds":"XXXX" <br> "password": "XXXX"<br>} | To add new Bond, All fields are Required |
 | Get List of Bonds | /api/add-bond | GET | | To get list of all Bond. |
 | Get a Bond | /api/bonds/:id | GET | | To get a Bond by bond id. |
 | Puchase Bond | /api/bonds/:id | PUT | | To purchase a bond. |
